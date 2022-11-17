@@ -30,13 +30,13 @@ while not end:
         print("You won the game")
     print(f"{' '.join(display)}")
     if guess not in chosen_word:
-        print(f"{guess} is not in the word. You loose a life :) \n")
+        print(f"{guess} is not in the word. You loose a life 🥸 \n")
         lives -= 1
         if lives == 0:
             end = True
-            print("You lost the game. To bad you couldn't find it :(")
+            print("You lost the game 💀. To bad you couldn't find it 🥲")
             print("\n")
-            print(f"The word was {chosen_word}. \n Better luck next time")
+            print(f"The word was {chosen_word}. \n Better luck next time 👍")
     print(stages[lives])
 
 
